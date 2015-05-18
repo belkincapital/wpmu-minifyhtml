@@ -6,7 +6,7 @@
     
     Author: Jason Jersey
     Author URI: https://www.twitter.com.com/degersey
-    Version: 1.0
+    Version: 1.0.1
     Text Domain: wpmu-minifyhtml
     Domain Path: /languages/
     License: GNU General Public License 2.0 
