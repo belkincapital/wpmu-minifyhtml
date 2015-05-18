@@ -6,7 +6,7 @@
     
     Author: Jason Jersey
     Author URI: https://www.twitter.com.com/degersey
-    Version: 1.0
+    Version: 1.0.1
     Text Domain: wpmu-minifyhtml
     Domain Path: /languages/
     License: GNU General Public License 2.0 
@@ -36,9 +36,10 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
  
 /* Minify HTML output
- * Since 1.0
+ * wp_loaded = fired once WP, all plugins, and the theme are fully loaded and instantiated.
+ * template_redirect = fired before WordPress determines which template page to load.
  */
-add_action('wp_loaded','wp_minify_html_output');
+add_action('template_redirect','wp_minify_html_output');
 function wp_minify_html_output(){
 	ob_start('wp_html_compress_output');
 }
