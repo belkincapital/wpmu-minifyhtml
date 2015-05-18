@@ -3,3 +3,6 @@ Minify the HTML output on the frontend. This will help with pagespeed. On Multis
 
 #### WordPress Compatibility
 Compatible with standard and multisite installations of the wordpress.org software.
+
+#### Plugin/Theme Compatibility
+It is possible that this may or may-not break some image sliders. If it does, no worries, just simply 'deactivate' the plugin to fix it.
